@@ -30,6 +30,11 @@ class Program
         myClass.a = 44;
 
         MyClass myClass2 = new MyClass();   
-        myClass2.a = 22;   
+        myClass2.a = 22;  
+        
+
+        MyClass2 myClass3 = new MyClass2();
+        myClass3.SetB(12);
+        myClass3.PrintB();
     }
 }
